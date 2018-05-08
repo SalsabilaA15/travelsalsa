@@ -20,6 +20,7 @@
 		<td><?php echo $key->password ?></td>
 		<td><?php echo $key->fullname ?></td>
 		<td><?php echo $key->level ?></td>
+		<td><?php echo anchor('user/hapus/'.$key->id,'Hapus'); ?></td>
 	</tr>		
 	<?php endforeach ?>
 
